@@ -1,5 +1,5 @@
 {
-    "name": "xiao/task",
+    "name": "doer/task",
     "description": "多进程异步作业库",
     "type": "library",
     "authors": [
