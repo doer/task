@@ -1,0 +1,39 @@
+{
+    "name": "xiao/task",
+    "description": "多进程异步作业库",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Russell",
+            "email": "russellwang@xiaoe-tech.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-pcntl": "*",
+        "ext-posix": "*",
+        "ext-sysvmsg": "*",
+        "ext-sysvsem": "*",
+        "ext-sysvshm": "*",
+        "ext-mbstring": "*",
+        "arara/process": "^1.10",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "monolog/monolog": "^1.25"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xiaoe\\Task\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Xiaoe\\Task\\Test\\": "tests"
+        }
+    }
+}

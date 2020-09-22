@@ -1,0 +1,7 @@
+.*
+!.gitignore
+
+# PHP 项目库
+vendor
+# 忽略日志文件
+*.log
